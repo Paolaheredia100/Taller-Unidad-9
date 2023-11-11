@@ -1,0 +1,88 @@
+html {
+   box-sizing: border-box;
+  }
+  *, *:before, *:after {
+   box-sizing: inherit;
+  }
+  body {
+   font: 1.2em/1.2 Helvetica, aria, sans-serif;
+   margin: 0 3%;
+  }
+  h1 {
+   font-size: 1.8em;
+   margin: .9em 0 0 0;
+  }
+  h2 {
+   font-size: 1.5em;
+   margin: 1.5em 0 0 0;
+  }
+  img {
+   max-width: 100%;
+  }
+  figure {
+   background: black;
+   border-radius: 5px;
+   color: white;
+   margin: 0 0 25px 0;
+   padding: 10px;
+   text-align: center;
+   
+  }
+  figcaption {
+   font-size: 25px;
+  }
+  @media screen and (min-width: 794px) {
+   body {
+   background: rgba(0,0,255,.2);
+   margin: 25px 6%;
+   }
+   figure {
+   float: left;
+   width: 45%;
+   margin-right: 4.5%;
+      background: rgb(45, 45, 77);
+      border-radius: 10px;
+      color: rgb(243, 246, 242);
+      margin: 10px 20px 25px 0;
+      padding: 40px;
+      text-align: center;
+  }
+  }
+  
+  @media screen and (min-width: 1020px) {
+   body {
+   background: rgba(41, 11, 78, 0.2);
+   margin: 25px 10%;
+   max-width: 1130px;
+   }
+   figure {
+   width: 30%;
+   margin-right: 2.5%;
+   background: rgb(24, 38, 92);
+      border-radius: 10px;
+      color: rgb(165, 57, 149));
+      margin: 20px 30px 45px 0;
+      padding: 50px;
+      text-align: center;
+   }
+  }
+  
+  @media screen and (min-width: 1500px) {
+      body {
+      background: rgba(111, 61, 61, 0.2);
+      margin: 25px 10%;
+      max-width: 1130px;
+      }
+      figure {
+      width: 30%;
+      margin-right: 2.5%;
+      background: rgb(86, 37, 37);
+         border-radius: 10px;
+         color: rgb(207, 205, 219);
+         margin: 25px 35px 45px 0;
+         padding: 30px;
+         text-align: center;
+      }
+     }
+  
+  
