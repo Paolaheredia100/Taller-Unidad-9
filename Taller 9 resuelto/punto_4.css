@@ -1,0 +1,102 @@
+
+/*punto 5*/
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 300%;
+
+}
+p  {
+  color: rgb(168, 77, 77);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-size: 280%;
+
+}
+p2  {
+  color:rgb(64, 36, 90);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>Soy Azul</h1>
+<p>Soy Rojo</p>
+<p2>Paola Cerquera</p2>
+
+</body>
+</html>
+
+/*punto 5*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.quote-container {
+    border: 1px dotted rgb(0, 0, 255);
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.green-text {
+    color: rgb(2, 99, 2);
+}
+
+.red-text {
+    color: rgb(247, 4, 4);
+}
+
+.black-text {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+}
+
+.blue-text {
+    color: rgb(0, 0, 255);
+}
+
+
+/*punto 6  */
+.eltiempo {
+    color: rgb(207, 161, 44);
+}
+
+.alkosto {
+    color: rgb(142, 111, 171);
+}
+
+.eltiempo:hover, .alkosto:hover {
+    text-decoration: underline;
+
+
+/*punto 7-8  */
+
+    body {
+        background-color: rgb(218, 117, 218);
+    }
+    
+    .nav-link {
+        color: rgb(241, 241, 241);
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .nav-link:hover,
+    .nav-link:active {
+        background-color: rgb(0, 0, 255);
+    }
+    
+    
